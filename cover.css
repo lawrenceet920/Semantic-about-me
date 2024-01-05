@@ -1,0 +1,80 @@
+:root {
+    --darken: #009;
+    --text: #333;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header, nav, main, article, aside, footer { 
+    border: 4px solid var(--darken);
+    margin: 12px;
+    padding: 10px;
+} /* Sets A box around every major element */
+
+img {
+    float: right;
+    width: 270px;
+}
+
+article {
+    float: left;
+    width: 65%;
+}
+aside {
+    float: right;
+    width: 25%;
+}
+
+main {
+    overflow: hidden;
+}
+
+ul li {
+    margin-bottom: 12px;
+    list-style: square;
+}
+dt {
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+/* Nav bar */
+nav {
+    font-size: 1.25rem;
+    text-align: center; /* Centers the links to the box */
+}
+nav li {
+    text-align: center; /* Centers the links to themselves*/
+    display: inline-block;
+    padding: 10px 7% 10px 7%;
+    border-right: 2px solid black;
+}
+nav li:last-child {
+    border-right: none;
+}
+
+/* Customisations below */
+
+#dwisia li {
+    display: inline-block;
+    padding-right: 5px;
+}
+#dwisia {
+    border-bottom: var(--darken) 1px dashed;
+}
+
+.many {
+    float: right;
+    width: 120px;
+}
+
+.smart dd {
+    margin-bottom: 5rem; /* This is the minimum to get a new line for every image */
+}
+#start {
+    float: left;
+    font-size: 2.5em;
+    font-weight: bolder;
+    margin-right: 5px;
+}
